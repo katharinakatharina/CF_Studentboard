@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Blog:</strong>
+  <%= @students_article.blog_id %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @students_article.user_id %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @students_article.date %>
+</p>
+
+<p>
+  <strong>Blog text:</strong>
+  <%= @students_article.blog_text %>
+</p>
+
+<p>
+  <strong>Blog title:</strong>
+  <%= @students_article.blog_title %>
+</p>
+
+<p>
+  <strong>User img:</strong>
+  <%= @students_article.user_img %>
+</p>
+
+<p>
+  <strong>Blog link:</strong>
+  <%= @students_article.blog_link %>
+</p>
+
+<p>
+  <strong>Blog img:</strong>
+  <%= @students_article.blog_img %>
+</p>
+
+<p>
+  <strong>Blog upload:</strong>
+  <%= @students_article.blog_upload %>
+</p>
+
+<%= link_to 'Edit', edit_students_article_path(@students_article) %> |
+<%= link_to 'Back', students_articles_path %>

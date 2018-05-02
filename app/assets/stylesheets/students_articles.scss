@@ -1,0 +1,30 @@
+// Place all the styles related to the students_articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.logo img {
+  width: 125px;
+}
+
+.logo {
+ padding-top: 10px;
+ width: 200px;
+}
+
+.carousel-caption h1 {
+  font-size: 3em;
+}
+
+.carousel-caption h2 {
+  font-size: 3em;
+}
+
+footer {
+  clear: left;
+}
+
+footer .copy {
+  text-align: center;
+  color: white;
+  font-size: 10px;
+}

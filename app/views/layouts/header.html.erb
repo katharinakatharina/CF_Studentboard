@@ -1,0 +1,53 @@
+<nav class="navbar navbar-expand-lg navbar-fixed-top">
+
+  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse-menu"> <span class="sr-only">Toggle navigation</span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </button>
+  <div class="col-lg-3 col-md-2">
+  <div class="navbar-brand2">
+     <%= link_to image_tag('cf_logo_min_full.svg', class: "logo"), root_path %>
+    </span>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-3">
+      
+    </div>
+    <div class="col-lg-6 col-md-7 navright">
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <ul class="navbar-nav navbar-right block2 mr-auto">
+    <li class="nav-item active navblock">
+      <p>
+      <%= link_to "Dashboard", students_articles_path, :class => "nav-link" %>
+      </p>
+    </li>
+    <li class="nav-item navblock">
+      <p>
+      <%= link_to "Create Article", students_articles_new_path, :class => "nav-link" %>
+    </p>
+    </li>
+
+  <!--  <li class="nav-item dropdown navblock">
+      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Dropdown
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Something else here</a>
+      </div>
+    </li> -->
+    <li class="nav-item navblock">
+      <p><i class="far fa-envelope"></i>
+      </p>
+    </li>
+  </ul>
+</div>
+</div>
+</nav>
+
+    <!--  <button>
+        <%= link_to "Sign up now!", '#', class: "btn btn-outline-dark", type: "button" %>
+      </button> for later -->

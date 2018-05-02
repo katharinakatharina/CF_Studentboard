@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+StudentsArticle.create(blog_title: "I'm a blog-title", blog-text: "I'm the blog text!I'm the blog text!I'm the blog text!I'm the blog text!")
+StudentsArticle.create(blog_title: "I'm a blog-title", blog-text: "I'm the blog text!I'm the blog text!I'm the blog text!I'm the blog text!")
+StudentsArticle.create(blog_title: "I'm a blog-title", blog-text: "I'm the blog text!I'm the blog text!I'm the blog text!I'm the blog text!")
+StudentsArticle.create(blog_title: "I'm a blog-title", blog-text: "I'm the blog text!I'm the blog text!I'm the blog text!I'm the blog text!")

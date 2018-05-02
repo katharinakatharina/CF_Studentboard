@@ -1,0 +1,62 @@
+<%= form_with(model: students_article, local: true) do |form| %>
+  <% if students_article.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(students_article.errors.count, "error") %> prohibited this students_article from being saved:</h2>
+
+      <ul>
+      <% students_article.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :blog_id %>
+    <%= form.number_field :blog_id %>
+  </div>
+
+  <div class="field">
+    <%= form.label :user_id %>
+    <%= form.number_field :user_id %>
+  </div>
+
+  <div class="field">
+    <%= form.label :date %>
+    <%= form.number_field :date %>
+  </div>
+
+  <div class="field">
+    <%= form.label :blog_text %>
+    <%= form.text_area :blog_text %>
+  </div>
+
+  <div class="field">
+    <%= form.label :blog_title %>
+    <%= form.text_field :blog_title %>
+  </div>
+
+  <div class="field">
+    <%= form.label :user_img %>
+    <%= form.text_field :user_img %>
+  </div>
+
+  <div class="field">
+    <%= form.label :blog_link %>
+    <%= form.text_field :blog_link %>
+  </div>
+
+  <div class="field">
+    <%= form.label :blog_img %>
+    <%= form.text_field :blog_img %>
+  </div>
+
+  <div class="field">
+    <%= form.label :blog_upload %>
+    <%= form.text_field :blog_upload %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

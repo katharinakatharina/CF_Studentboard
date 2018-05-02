@@ -1,3 +1,7 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  resources :students_articles
+  get 'students_articles/index'
+  get 'students_articles/new'
+  get 'students_articles/edit'
+  root 'layouts#landing_page'
 end
